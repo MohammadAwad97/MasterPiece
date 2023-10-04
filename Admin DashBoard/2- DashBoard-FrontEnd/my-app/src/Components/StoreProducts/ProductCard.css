@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.product_Container {
+    margin-left: 3rem;
+    width: 270px;
+    box-shadow: 0 0 1px;
+    min-height: 350px;
+    border-radius: 14px;
+    padding: 1.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.product_Container  > .img_Cont {
+    width: 100%;
+    border-radius: 14px;
+    height: 150px;
+}
+
+.product_Container  > .img_Cont > img {
+    width: fit-content;
+    border-radius: 14px;
+    height: 100%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+.information > .mainTitle > h2 {
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.information > .mainTitle > .description {
+    font-size: 0.9em;
+    color: rgb(150, 150, 150);
+}
+
+.information > .price  {
+    font-size: 1.4em;
+}
+
+.product_Container > .buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 1em;
+}
+
+.product_Container > .buttons > button {
+    cursor: pointer;
+    width: 100px;
+    border-radius: 14px;
+}
+
+.product_Container > .buttons > .edit {
+    background-color : #c7d8d5;
+}
+
+.product_Container > .buttons > .delete {
+    background-color: rgba(203, 8, 8, 0.874);
+} 

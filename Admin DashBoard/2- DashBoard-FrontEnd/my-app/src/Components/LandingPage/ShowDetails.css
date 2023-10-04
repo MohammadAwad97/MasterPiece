@@ -1,0 +1,31 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.showAlldetails {
+  width: 100%;
+  padding-left: 3em;
+  padding-top: 3em;
+}
+
+.showAlldetails > h1 {
+    margin-bottom: 2em;
+}
+
+.showAlldetails > .information {
+
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(165, 162, 162);
+    margin-bottom: 2em;
+}
+
+.showAlldetails > .information > p {
+    word-wrap: break-word;
+    width: 20%;
+    padding-right: 1em;
+    padding-left: 2em;
+} */
